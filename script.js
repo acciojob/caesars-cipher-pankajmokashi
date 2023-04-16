@@ -20,6 +20,7 @@ function rot13(encodedStr){
         else
         decodedArr.push(element)
     });
+	decodedArr = decodedArr.join("")
   return decodedArr;//return decodedArr
 }
 
